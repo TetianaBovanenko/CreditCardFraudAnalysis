@@ -5,6 +5,8 @@ This project analyzes credit card transaction data to identify patterns of fraud
 ## Project Overview
 The main objective of this project is to understand the patterns and characteristics of fraudulent transactions through data analysis and visualization. The data was cleaned and preprocessed using Pandas in a Jupyter Notebook. The cleaned data was then visualized in Power BI, where DAX expressions were used to further clean text data and calculate metrics related to fraud.
 
+[View the visualization](https://github.com/TetianaBovanenko/CreditCardFraudAnalysis/blob/main/credit%20card%20fraud%20analysis.pdf)
+
 [Watch the presentation](https://drive.google.com/file/d/1ZSTKFIVkgS12oeajwO-Z9bR3Uywwc8bm/view?usp=drive_link)
 
 ## Tools and Technologies
