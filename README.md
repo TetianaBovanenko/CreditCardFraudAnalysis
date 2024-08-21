@@ -1,7 +1,7 @@
 # Credit Card Fraud Analysis
 ![CC Fraud Logo](https://github.com/TetianaBovanenko/CreditCardFraudAnalysis/blob/main/frauddata_logo.png?raw=true)
 
-This project analyzes credit card transaction data to identify patterns of fraudulent activity. It utilizes Python for data preprocessing and Power BI for visualization. The dataset used is sourced from Kaggle.
+This project analyzes credit card transaction data to identify patterns of fraudulent activity. It utilizes Python for data preprocessing and Power BI for visualization. The [dataset] (https://www.kaggle.com/datasets/neharoychoudhury/credit-card-fraud-data) used is sourced from Kaggle.
 ## Project Overview
 The main objective of this project is to understand the patterns and characteristics of fraudulent transactions through data analysis and visualization. The data was cleaned and preprocessed using Pandas in a Jupyter Notebook. The cleaned data was then visualized in Power BI, where DAX expressions were used to further clean text data and calculate metrics related to fraud.
 ## Tools and Technologies
