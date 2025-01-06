@@ -1,25 +1,57 @@
 # Credit Card Fraud Analysis
+
 ![CC Fraud Logo](https://github.com/TetianaBovanenko/CreditCardFraudAnalysis/blob/main/frauddata_logo.png?raw=true)
 
-This project analyzes credit card transaction data to identify patterns of fraudulent activity. It utilizes Python for data preprocessing and Power BI for visualization. The [dataset](https://www.kaggle.com/datasets/neharoychoudhury/credit-card-fraud-data) used is sourced from Kaggle.
-## Project Overview
-The main objective of this project is to understand the patterns and characteristics of fraudulent transactions through data analysis and visualization. The data was cleaned and preprocessed using Pandas in a Jupyter Notebook. The cleaned data was then visualized in Power BI, where DAX expressions were used to further clean text data and calculate metrics related to fraud.
+## 📋 Project Overview
+This project analyzes credit card transaction [data](https://www.kaggle.com/datasets/neharoychoudhury/credit-card-fraud-data) to identify patterns of fraudulent activity using Python for data preprocessing and Power BI for visualization. The dataset was sourced from Kaggle, and the aim was to uncover insights into fraud characteristics and patterns through data analysis and interactive visualizations.
 
-[View the visualization](https://github.com/TetianaBovanenko/CreditCardFraudAnalysis/blob/main/credit%20card%20fraud%20analysis.pdf)
+🎥 View the Project
+Visualizations: [Link to Power BI Dashboard](https://github.com/TetianaBovanenko/CreditCardFraudAnalysis/blob/main/credit%20card%20fraud%20analysis.pdf)
+Presentation: [Watch the Video Presentation](https://drive.google.com/file/d/1ZSTKFIVkgS12oeajwO-Z9bR3Uywwc8bm/view?usp=drive_link)
 
-[Watch the presentation](https://drive.google.com/file/d/1ZSTKFIVkgS12oeajwO-Z9bR3Uywwc8bm/view?usp=drive_link)
+---
 
-## Tools and Technologies
-- Python (Pandas, Jupyter Notebook): Used for data loading, cleaning, and feature extraction.- Power BI: Used for creating interactive dashboards and reports to visualize fraud patterns.
-- DAX (Data Analysis Expressions): Used in Power BI to clean text data and compute various metrics.
-## Data Preprocessing
-The preprocessing involved:- Handling inconsistent date formats.
-- Cleaning the is_fraud column.- Extracting new features like transaction year, month, day, and hour, as well as calculating the cardholder's age.
-- Dropping redundant columns and exporting the cleaned data.
-## Data Visualization
-In Power BI:- Created calculated columns such as CleanedJob, CleanedMerch, and MonthName.
-- Computed total amounts involved in fraudulent transactions using DAX.
-## Installation
+## 🎯 Objectives
+1. Understand patterns and characteristics of fraudulent transactions.
+2. Preprocess raw data to ensure consistency and accuracy.
+3. Visualize fraud patterns using interactive Power BI dashboards.
+4. Calculate metrics related to fraud using DAX (Data Analysis Expressions).
+
+---
+
+## 🛠️ Tools and Technologies
+- **Python**: Used for data loading, cleaning, and feature extraction with Pandas in Jupyter Notebook.
+- **Power BI**: Used for creating interactive dashboards and reports to visualize fraud patterns.
+- **DAX (Data Analysis Expressions)**: Utilized in Power BI to clean text data and compute metrics.
+
+---
+
+## 🔄 Data Preprocessing
+The preprocessing workflow included:
+- Handling inconsistent date formats in the transaction dataset.
+- Cleaning the `is_fraud` column for accuracy.
+- Extracting new features:
+  - **Transaction Year, Month, Day, and Hour**
+  - **Cardholder's Age**
+- Dropping redundant columns to optimize the dataset.
+- Exporting the cleaned dataset for visualization in Power BI.
+
+---
+
+## 📊 Data Visualization
+In **Power BI**:
+- Created calculated columns, such as:
+  - **CleanedJob**: Categorized and cleaned job titles.
+  - **CleanedMerch**: Processed merchant names for consistency.
+  - **MonthName**: Translated month numbers into readable names.
+- Used **DAX expressions** to compute:
+  - Total amounts involved in fraudulent transactions.
+  - Metrics and summaries for fraudulent patterns.
+
+---
+
+## 🚀 Installation and Setup
 ### Clone the Repository
-```shgit clone https://github.com/yourusername/credit-card-fraud-analysis.git
+```bash
+git clone https://github.com/yourusername/credit-card-fraud-analysis.git
 cd credit-card-fraud-analysis
